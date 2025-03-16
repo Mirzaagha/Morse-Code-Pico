@@ -31,7 +31,7 @@ If you haven’t installed *MicroPython*, follow these steps:
 
 ### *3. Clone the Repository*
 ```sh
-git clone https://github.com/Mirzaagha/Morse-Code-Pico.git
+git clone https://github.com/name/Morse-Code-Pico.git
 cd Morse-Code-Pico
 ```
 
@@ -53,3 +53,49 @@ cd Morse-Code-Pico
 1. Open a serial terminal (like PuTTY or screen):
    ```sh
    screen /dev/ttyUSB0 115200
+### *Project Structure*
+```sh
+Morse-Code-Pico/
+│── src/
+│   ├── main.py            # Main script (handles user input/output)
+│   ├── morse.py           # Morse code logic (encoding/decoding)
+│── docs/
+│   ├── README.md          # Project documentation
+│── .gitignore             # Ignore unnecessary files
+│── LICENSE                # Open-source license
+
+---
+
+## *Example Usage*
+```sh
+Enter text (or Morse code) to convert:
+> SOS
+Morse Code: ... --- ...
+
+Enter text (or Morse code) to convert:
+> ... --- ...
+Decoded Text: SOS
+
+---
+
+## *Morse Code Reference*
+```sh
+Character | Morse Code
+----------------------
+A         | .-
+B         | -...
+C         | -.-.
+D         | -..
+E         | .
+S         | ...
+O         | ---
+1         | .----
+2         | ..---
+3         | ...--
+
+---
+
+### *Author*
+```sh
+Your Name
+GitHub: @YourUsername (https://github.com/YOUR_USERNAME)
