@@ -64,7 +64,7 @@ Morse-Code-Pico/
 │── .gitignore             # Ignore unnecessary files
 │── LICENSE                # Open-source license
 
----
+```
 
 ## *Example Usage*
 ```sh
@@ -76,7 +76,7 @@ Enter text (or Morse code) to convert:
 > ... --- ...
 Decoded Text: SOS
 
----
+```
 
 ## *Morse Code Reference*
 ```sh
@@ -93,7 +93,7 @@ O         | ---
 2         | ..---
 3         | ...--
 
----
+```
 
 ### *Author*
 ```sh
